@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ex3</title>
+</head>
+<body>
+  <fieldset>
+    <legend>Форма реєстрації</legend>
+<fieldset>
+  <legend>Вхідна інформація</legend>
+  <div>
+    <form>
+      <label>Ім'я: </label>
+      <input required type="text" name="Ім'я" placeholder="Введіть ваше ім'я" align="center">
+    </form>
+  </div>
+  <div>
+    <form>
+      <label>Пароль: </label>
+      <input required type="password" name="Пароль" placeholder="Введіть ваш пароль" align="center">
+    </form>
+  </div>
+  <div>
+    <form>
+    <label>Дата народження: </label>
+    <input required type="date" name="Дата народження" align="center" placeholder="dd, mm, yyyy">
+    </form>
+  </div>
+  <div>
+    <form>
+      <label>Завантажте фото для профілю: </label>
+      <input required type="file" name="Завантажте фото для профілю" align="center">
+    </form>
+  </div>
+  <div>
+    <form>
+      <label>Вкажіть додаткову інформацію про себе:</label>
+      <p><textarea></textarea></p>
+    </form>
+  </div>
+</fieldset>
+
+<fieldset>
+  <legend>Контактні дані</legend>
+  <div>
+    <form>
+      <label autocomplete="off">Email: </label>
+      <input type="email" name="Email" pattern="dr.yakimiv@gmail.com" align="center">
+    </form>
+  </div>
+
+  <div>
+    <form>
+      <label>Телефон: </label>
+      <input type="tel" name="Телефон" pattern="0951371982" align="center">
+    </form>
+  </div>
+</fieldset>
+
+    <fieldset>
+      <legend>Додаткова інформація</legend>
+      <div>
+        <form>
+          <label>Континент: </label>
+          <select required>
+            <option>Європа</option>
+            <option>Північна Америка</option>
+            <option>Південна Америка</option>
+            <option>Африка</option>
+            <option>Азія</option>
+            <option>Австралія та Океанія</option>
+          </select>
+        </form>
+      </div>
+
+      <div>
+        <form>
+          <lable>Іноземні мови: </lable>
+          <select multiple>
+            <option>Англійська</option>
+            <option>Німецька</option>
+            <option>Польська</option>
+            <option>Чеська</option>
+            <option>Словацька</option>
+            <option>Італійська</option>
+          </select>
+        </form>
+      </div>
+
+      <div>
+        <form>
+          <label>Діти: </label>
+          <div>
+            <input type="radio"><label>Є</label>
+          </div>
+          <div>
+            <input type="radio"><label>Немає</label>
+          </div>
+          <div>
+            <input type="radio" checked><label>Не уточнювати</label>
+          </div>
+
+
+        </form>
+      </div>
+      <div>
+        <form>
+          <label>Досвід роботи:</label>
+          <div>
+          <input type="checkbox" name="Досвід роботи"><label>Немає</label>
+          </div>
+          <div>
+            <input type="checkbox" name="Досвід роботи"><label>Менше року</label>
+          </div>
+          <div>
+            <input type="checkbox" name="Досвід роботи"><label>Рік</label>
+          </div>
+          <div>
+            <input type="checkbox" name="Досвід роботи"><label>Більше року</label>
+          </div>
+        </form>
+      </div>
+
+      <div>
+        <form>
+          <label for="country">Громадянство: </label>
+          <select id="country" name="countries" required>
+            <optgroup label="Європа">
+              <option value="italy" >Італія</option>
+              <option value="slovakia">Словаччина</option>
+              <option value="france">Франція</option>
+            </optgroup>
+            <optgroup label="Україна">
+              <option value="ukraine">Україна</option>
+            </optgroup>
+            <optgroup label="Америка">
+              <option value="us">США</option>
+              <option value="canada">Канада</option>
+              <option value="arg">Аргентина</option>
+            </optgroup>
+          </select>
+        </form>
+      </div>
+
+      <div>
+          <input list="countries" id="countryInput" placeholder="Введіть країну">
+          <datalist id="countries">
+            <option value="Україна">
+            <option value="США">
+            <option value="Канада">
+            <option value="Німеччина">
+          </datalist>
+      </div>
+
+      <div>
+        <label for="country">Національність:</label>
+        <div>
+          <input id="ukrainian" type="radio" tabindex="7" name="country" value="ukraine">
+          <label for="ukrainian">Ukrainian</label>
+        </div>
+        <div>
+          <input type="radio" tabindex="7" name="country" value="polish">
+          <label for="ukrainian">Polish</label>
+        </div>
+        <div>
+          <input type="radio" tabindex="7" name="country" value="german">
+          <label for="ukrainian">German</label>
+        </div>
+
+        <div>
+          <label id="age" tabindex="8" for="age">Вік:</label>
+          <div>
+            <input type="radio" tabindex="8" name="age" id="young" checked>
+            <label for="age">Молодше 18 років</label>
+          </div>
+          <div>
+            <input type="radio" tabindex="8" name="age" id="good">
+            <label for="age">Від 18 до 25 років</label>
+          </div>
+          <div>
+            <input type="radio" tabindex="8" name="age" id="old">
+            <label for="age">Старше 25 років</label>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+    <input id="comfirm" type="checkbox" tabindex="9" name="confirm" id="confirm">
+    <label for="comfirm">Підписатись на розсилку по пошті</label>
+
+    <br><br>
+
+    <button tabindex="10" type="submit">Відправити</button>
+    <button tabindex="11" type="reset">Очистити</button>
+</fieldset>
+  <h2><a href="/index.html">Повернутися на головну</a></h2>
+</body>
+</html>
