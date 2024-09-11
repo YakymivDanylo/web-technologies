@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ex3</title>
+</head>
+<body>
+<form action="form-submit.html" method="post">
+  <fieldset>
+    <legend>Форма реєстрації</legend>
+<fieldset>
+  <legend>Вхідна інформація</legend>
+
+      <label>Ім'я:
+      <input id="name" required type="text" name="Ім'я" placeholder="Введіть ваше ім'я" align="center">
+      </label>
+
+      <label>Пароль:
+
+      <input required type="password" name="Пароль" placeholder="Введіть ваш пароль" align="center" pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*\d).{6,}$">
+    </label>
+
+    <label>Дата народження:
+
+      <input required type="date" name="Дата народження" align="center" placeholder="dd, mm, yyyy">
+    </label>
+
+      <label>Завантажте фото для профілю:
+      <input required type="file" name="Завантажте фото для профілю" align="center">
+      </label>
+
+
+      <label>Вкажіть додаткову інформацію про себе:</label>
+      <p><textarea></textarea></p>
+
+</fieldset>
+
+<fieldset>
+  <legend>Контактні дані</legend>
+
+      <label autocomplete="off">Email:
+
+    <input type="email" name="Email" pattern="dr.yakimiv@gmail.com" align="center">
+  </label>
+
+
+
+      <label>Телефон:
+
+    <input type="tel" name="Телефон" pattern="0951371982" align="center">
+  </label>
+
+</fieldset>
+
+    <fieldset>
+      <legend>Додаткова інформація</legend>
+
+          <label>Континент: </label>
+      <label>
+        <select required>
+          <option>Європа</option>
+          <option>Північна Америка</option>
+          <option>Південна Америка</option>
+          <option>Африка</option>
+          <option>Азія</option>
+          <option>Австралія та Океанія</option>
+        </select>
+      </label>
+
+
+
+          <lable>Іноземні мови: </lable>
+      <label>
+        <select multiple>
+          <option>Англійська</option>
+          <option>Німецька</option>
+          <option>Польська</option>
+          <option>Чеська</option>
+          <option>Словацька</option>
+          <option>Італійська</option>
+        </select>
+      </label>
+
+
+      <div>
+          <label>Діти: </label>
+
+        <label>
+          <input type="radio">
+        </label><label>Є</label>
+
+
+        <label>
+          <input type="radio">
+        </label><label>Немає</label>
+
+        <label>
+          <input type="radio" checked>
+        </label><label>Не уточнювати</label>
+
+
+
+
+          <label>Досвід роботи:</label>
+
+              <label>
+                  <input type="checkbox" disabled  checked name="Досвід роботи">
+              </label><label>Немає</label>
+
+        <label>
+          <input type="checkbox" name="Досвід роботи">
+        </label><label>Менше року</label>
+
+        <label>
+          <input type="checkbox" name="Досвід роботи">
+        </label><label>Рік</label>
+
+        <label>
+          <input type="checkbox" checked  name="Досвід роботи">
+        </label><label>Більше року</label>
+
+
+
+          <label for="country">Громадянство:
+          <select id="country" name="countries" required>
+            <optgroup label="Європа">
+              <option value="italy" >Італія</option>
+              <option value="slovakia">Словаччина</option>
+              <option value="france">Франція</option>
+            </optgroup>
+            <optgroup label="Україна">
+              <option value="ukraine">Україна</option>
+            </optgroup>
+            <optgroup label="Америка">
+              <option value="us">США</option>
+              <option value="canada">Канада</option>
+              <option value="arg">Аргентина</option>
+            </optgroup>
+          </select>
+
+
+
+          <input list="countries" id="countryInput" placeholder="Введіть країну">
+          <datalist id="countries">
+            <option value="Україна">
+            <option value="США">
+            <option value="Канада">
+            <option value="Німеччина">
+          </datalist>
+
+
+        <label for="country">Національність:</label>
+
+          <input id="ukrainian" type="radio" tabindex="7" name="country" value="ukraine">
+          <label for="ukrainian">Ukrainian</label>
+
+            <label>
+              <input type="radio" tabindex="7" name="country" value="polish">
+            </label>
+            <label for="ukrainian">Polish</label>
+
+            <label>
+              <input type="radio" tabindex="7" name="country" value="german">
+            </label>
+            <label for="ukrainian">German</label>
+
+          <label id="age" tabindex="8" for="age">Вік:</label>
+
+            <label for="young"></label><input type="radio" tabindex="8" name="age" id="young" checked>
+            <label for="age">Молодше 18 років</label>
+
+
+            <label for="good"></label><input type="radio" tabindex="8" name="age" id="good">
+            <label for="age">Від 18 до 25 років</label>
+
+            <input type="radio" tabindex="8" name="age" id="old">
+            <label for="age">Старше 25 років</label>
+
+    </fieldset>
+    <input id="comfirm" type="checkbox" tabindex="9" name="confirm" id="confirm">
+    <label for="comfirm">Підписатись на розсилку по пошті</label>
+
+    <br><br>
+
+    <button tabindex="10" type="submit">Відправити</button>
+    <button tabindex="11" type="reset">Очистити</button>
+</fieldset>
+</form>
+</body>
+</html>
