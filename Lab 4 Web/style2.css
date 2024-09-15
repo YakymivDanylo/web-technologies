@@ -1,0 +1,61 @@
+*{
+  font-family: Arial, serif;
+  font-size: 20px;
+  line-height: 40px;
+}
+h1{
+  color: red;
+  font-family: "Roboto Light", serif;
+  font-size: 50px;
+  text-align: center;
+}
+h2{
+  font-family: "Roboto Light", serif;
+  font-size: 35px;
+  text-align: center;
+ font-style: italic;
+}
+p{
+  text-align: center;
+}
+.bold{
+  font-weight: bold;
+}
+.lined{
+text-decoration: underline;
+}
+.subscript{
+  font-size: smaller;
+  vertical-align: sub;
+}
+.upscript{
+  font-size: smaller;
+  vertical-align: super;
+}
+
+.line{
+  text-decoration: line-through;
+}
+.line2{
+  text-decoration: underline;
+}
+.bgcolor{
+  background-color: yellow;
+}
+.line_green{
+  color: green;
+  text-decoration: underline;
+}
+.custom-hr {
+  align-items: center;
+  border: none;
+  height: 2px;
+  background-color:green;
+  margin: 20px auto;
+  width: 50%;
+}
+.italic_text{
+  font-style: italic;
+  font-size: 15px;
+}
+
