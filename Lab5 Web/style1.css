@@ -1,0 +1,131 @@
+body{
+  font-family: "Raleway", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  margin: 0;
+}
+div{
+  background-color: rgb(255,165,0);
+  width: 500px;
+  padding: 20px;
+  color: white;
+}
+h1{
+  font-size: 25px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.list{
+  list-style-position: inside;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+.level_one_list{
+  background-color: rgb(103, 158, 128);
+  padding-right: 20px;
+  padding-left: 50px;
+}
+.leve_two_list{
+  font-size: 18px;
+  font-style: italic;
+  padding-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.leve_two_list > li {
+  background-color: rgb(153,180,102);
+}
+.styled_span{
+  padding: 10px 20px;
+  display: inline-block;
+}
+.rule > span {
+  font-size: 20px;
+  font-weight: 700;
+  background-color: rgb(199,124,106);
+  margin: 0 0 0 5px;
+}
+.leve_two_list span {
+  background-color: rgb(218, 106, 32);
+  padding: 20px;
+  font-weight: 600;
+}
+.rule {
+  background-image: url('/icons/rule.svg');
+  background-position: 3px 5px;
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  padding: 0 40px 0px;
+  margin-bottom: 10px;
+  background-color: rgb(103, 158, 128);
+}
+.units {
+  background-image: url('/icons/ad_units.svg');
+  background-position: 0 10px;
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  padding: 20px 40px;
+  margin-bottom: 10px;
+}
+.ticket {
+  background-image: url('/icons/airplane_ticket.svg');
+  background-position: 0 10px;
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  padding: 20px 40px;
+  margin-bottom: 10px;
+}
+.hotel {
+  background-image: url('/icons/hotel.svg');
+  background-position: 0 10px;
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  padding: 20px 40px;
+  margin-bottom: 10px;
+}
+
+.car {
+  background-image: url('/icons/car_rental.png');
+  background-position: 0 10px;
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  padding: 20px 40px;
+  margin-bottom: 10px;
+}
+.bar {
+  background-image: url('/icons/local_bar.svg');
+  background-position: 0 10px;
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  padding: 20px 40px;
+  margin-bottom: 10px;
+}
+
+.casino {
+  background-image: url('/icons/casino.png');
+  background-position: 0 10px;
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  padding: 20px 40px;
+  margin-bottom: 10px;
+}
+
+.museum {
+  background-image: url('/icons/museum.svg');
+  background-position: 0 10px;
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  padding: 20px 40px;
+  margin-bottom: 10px;
+}
+
+.festival {
+  background-image: url('/icons/festival.png');
+  background-position: 0 10px;
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  padding: 20px 40px;
+  margin-bottom: 10px;
+}
