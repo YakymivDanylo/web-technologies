@@ -1,0 +1,49 @@
+ body{
+    font-family: "Raleway", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0;
+  }
+ .main {
+   background: linear-gradient(to right, rgb(214,249,255) 0%,rgb(158,232,250) 100%);
+  padding: 50px;
+}.form {
+   display: grid;
+   justify-content: center;
+   color: white;
+ }
+
+.main-fieldset {
+  display: grid;
+  justify-content: center;
+  width: 100%;
+  background-color: #2F303A;
+}
+
+.main-legend {
+  text-align: center;
+  font-size: 22px;
+}
+
+.data-fieldset {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.data-fieldset:first-of-type {
+  background: linear-gradient(to right, rgb(30,87,153) 0%,rgb(41,137,216) 50%,rgb(125,185,232) 100%);
+}
+
+.data-fieldset:nth-of-type(2) {
+  background: #d99594;
+}
+
+.data-fieldset:last-of-type {
+  background: #943634;
+}
+
+
+.data-fieldset * {
+  margin: 5px;
+}
