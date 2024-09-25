@@ -12,75 +12,84 @@
       <legend class="main-legend">Форма реєстрації</legend>
       <fieldset class="data-fieldset">
         <legend>Вхідна інформація</legend>
-
-        <label>Ім'я:
-          <input id="name" required type="text" name="Ім'я" placeholder="Введіть ваше ім'я" align="center">
-        </label>
-
-        <label>Пароль:
-
-          <input required type="password" name="Пароль" placeholder="Введіть ваш пароль" align="center"
-                 pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*\d).{6,}$">
-        </label>
-
-        <label>Дата народження:
-
-          <input required type="date" name="Дата народження" align="center" placeholder="dd, mm, yyyy">
-        </label>
-
-        <label>Завантажте фото для профілю:
-          <input required type="file" name="Завантажте фото для профілю" align="center">
-        </label>
+        <div>
+          <label>Ім'я:
+            <input id="name" required type="text" name="Ім'я" placeholder="Введіть ваше ім'я" align="center">
+          </label>
 
 
-        <label>Вкажіть додаткову інформацію про себе:
-          <p><textarea></textarea></p>
-        </label>
+          <label>Пароль:
 
+            <input required type="password" name="Пароль" placeholder="Введіть ваш пароль" align="center"
+                   pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*\d).{6,}$">
+          </label>
+
+
+          <label>Дата народження:
+
+            <input required type="date" name="Дата народження" align="center" placeholder="dd, mm, yyyy">
+          </label>
+
+
+          <label>Завантажте фото для профілю:
+            <input required type="file" name="Завантажте фото для профілю" align="center">
+          </label>
+
+
+          <label>Вкажіть додаткову інформацію про себе:
+            <p><textarea></textarea></p>
+          </label>
+        </div>
       </fieldset>
 
       <fieldset class="data-fieldset">
-        <legend>Контактні дані</legend>
 
+        <legend>Контактні дані</legend>
+        <div>
         <label autocomplete="off">Email:
 
           <input type="email" name="Email" pattern="dr.yakimiv@gmail.com" align="center">
         </label>
 
-
+          <div>
         <label>Телефон:
 
           <input type="tel" name="Телефон" pattern="0951371982" align="center">
         </label>
+          </div>
 
       </fieldset>
 
       <fieldset class="data-fieldset">
+        </div>
+
+
         <legend>Додаткова інформація</legend>
+        <div>
+          <label>Континент:
+            <select required>
+              <option>Європа</option>
+              <option>Північна Америка</option>
+              <option>Південна Америка</option>
+              <option>Африка</option>
+              <option>Азія</option>
+              <option>Австралія та Океанія</option>
+            </select>
+          </label>
+        </div>
 
-        <label>Континент:
-          <select required>
-            <option>Європа</option>
-            <option>Північна Америка</option>
-            <option>Південна Америка</option>
-            <option>Африка</option>
-            <option>Азія</option>
-            <option>Австралія та Океанія</option>
-          </select>
-        </label>
-
-
-        <lable>Іноземні мови:
-          <select multiple>
-            <option>Англійська</option>
-            <option>Німецька</option>
-            <option>Польська</option>
-            <option>Чеська</option>
-            <option>Словацька</option>
-            <option>Італійська</option>
-          </select>
-        </lable>
-
+        <div>
+          <lable>Іноземні мови:
+            <select multiple>
+              <option>Англійська</option>
+              <option>Німецька</option>
+              <option>Польська</option>
+              <option>Чеська</option>
+              <option>Словацька</option>
+              <option>Італійська</option>
+            </select>
+          </lable>
+        </div>
 
         <div>
           <label>Діти:
@@ -117,7 +126,7 @@
 
             <label>Більше року
               <input type="checkbox" checked name="Досвід роботи">
-           </label>
+            </label>
           </label>
         </div>
 
@@ -150,7 +159,7 @@
           <option value="Німеччина">
         </datalist>
 
-
+<div>
         <label for="country">Національність:
 
           <input id="ukrainian" type="radio" tabindex="7" name="country" value="ukraine">
@@ -166,7 +175,9 @@
           </label>
           <label for="ukrainian">German</label>
         </label>
+</div>
 
+        <div>
         <label id="age" tabindex="8" for="age">Вік:
 
           <label for="young"></label><input type="radio" tabindex="8" name="age" id="young" checked>
@@ -179,6 +190,7 @@
           <input type="radio" tabindex="8" name="age" id="old">
           <label for="age">Старше 25 років</label>
         </label>
+        </div>
       </fieldset>
       <input id="comfirm" type="checkbox" tabindex="9" name="confirm" id="confirm">
       <label for="comfirm">Підписатись на розсилку по пошті
