@@ -12,7 +12,6 @@
       <legend class="main-legend">Форма реєстрації</legend>
       <fieldset class="data-fieldset">
         <legend>Вхідна інформація</legend>
-        <div>
           <label>Ім'я:
             <input id="name" required type="text" name="Ім'я" placeholder="Введіть ваше ім'я" align="center">
           </label>
@@ -39,29 +38,29 @@
           <label>Вкажіть додаткову інформацію про себе:
             <p><textarea></textarea></p>
           </label>
-        </div>
+
       </fieldset>
 
       <fieldset class="data-fieldset">
 
         <legend>Контактні дані</legend>
-        <div>
+
         <label autocomplete="off">Email:
 
           <input type="email" name="Email" pattern="dr.yakimiv@gmail.com" align="center">
         </label>
 
-          <div>
+
         <label>Телефон:
 
           <input type="tel" name="Телефон" pattern="0951371982" align="center">
         </label>
-          </div>
+
 
       </fieldset>
 
       <fieldset class="data-fieldset">
-        </div>
+
 
 
         <legend>Додаткова інформація</legend>
@@ -91,26 +90,27 @@
           </lable>
         </div>
 
-        <div>
-          <label>Діти:
 
-            <label>
+          <label>Діти:</label>
+
+            <label>Є
               <input type="radio">
-            </label><label>Є</label>
+            </label>
 
 
-            <label>
+
+            <label>Немає
               <input type="radio">
-            </label><label>Немає</label>
+            </label>
 
-            <label>
+
+            <label>Не уточнювати
               <input type="radio" checked>
-            </label><label>Не уточнювати</label>
-          </label>
-        </div>
+            </label>
 
-        <div>
-          <label>Досвід роботи:
+
+
+          <label>Досвід роботи:</label>
 
             <label>Немає
               <input type="checkbox" disabled checked name="Досвід роботи">
@@ -127,10 +127,9 @@
             <label>Більше року
               <input type="checkbox" checked name="Досвід роботи">
             </label>
-          </label>
-        </div>
 
-        <div>
+
+
           <label for="country">Громадянство:
             <select id="country" name="countries" required>
               <optgroup label="Європа">
@@ -148,7 +147,7 @@
               </optgroup>
             </select>
           </label>
-        </div>
+
 
 
         <input list="countries" id="countryInput" placeholder="Введіть країну">
@@ -159,41 +158,38 @@
           <option value="Німеччина">
         </datalist>
 
-<div>
-        <label for="country">Національність:
 
+        <label for="country">Національність:</label>
+
+        <label for="ukrainian">Ukrainian</label>
           <input id="ukrainian" type="radio" tabindex="7" name="country" value="ukraine">
-          <label for="ukrainian">Ukrainian</label>
 
-          <label>
+        <label for="ukrainian">Polish</label>
             <input type="radio" tabindex="7" name="country" value="polish">
-          </label>
-          <label for="ukrainian">Polish</label>
 
-          <label>
+
+
+        <label for="ukrainian">German</label>
             <input type="radio" tabindex="7" name="country" value="german">
-          </label>
-          <label for="ukrainian">German</label>
-        </label>
-</div>
-
-        <div>
-        <label id="age" tabindex="8" for="age">Вік:
-
-          <label for="young"></label><input type="radio" tabindex="8" name="age" id="young" checked>
-          <label for="age">Молодше 18 років</label>
 
 
-          <label for="good"></label><input type="radio" tabindex="8" name="age" id="good">
-          <label for="age">Від 18 до 25 років</label>
 
-          <input type="radio" tabindex="8" name="age" id="old">
-          <label for="age">Старше 25 років</label>
-        </label>
-        </div>
+        <label id="age" tabindex="8" for="age">Вік:</label>
+
+        <label for="age">Молодше 18 років</label>
+          <label><input type="radio" tabindex="8" name="age" id="young" checked></label>
+
+
+        <label for="age">Від 18 до 25 років</label>
+          <label ><input type="radio" tabindex="8" name="age" id="good"></label>
+
+        <label for="age">Старше 25 років</label>
+        <label><input type="radio" tabindex="8" name="age" id="young" checked></label>
+
       </fieldset>
-      <input id="comfirm" type="checkbox" tabindex="9" name="confirm" id="confirm">
-      <label for="comfirm">Підписатись на розсилку по пошті
+      <label for="comfirm">Підписатись на розсилку по пошті</label>
+      <lable for ="comfirm"><input id="comfirm" type="checkbox" tabindex="9" name="confirm" id="confirm"></lable>
+
 
         <br><br>
 

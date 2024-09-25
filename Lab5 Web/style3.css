@@ -1,60 +1,69 @@
- body{
-    font-family: "Raleway", system-ui;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    margin: 0;
-  }
- div{
-   width: 500px;
-   padding: 20px;
-   color: white;
- }
- lable{
-   display: grid;
-   font-size: 25px;
-   font-weight: 900;
-   margin-bottom: 10px;
- }
- .main {
-   background: linear-gradient(to right, rgb(214,249,255) 0%,rgb(158,232,250) 100%);
-  padding: 50px;
-}.form {
-   display: grid;
-   justify-content: center;
-   color: white;
- }
-
-.main-fieldset {
-  display: grid;
-  justify-content: center;
-  width: 100%;
-  background-color: #2F303A;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.main-legend {
-  text-align: center;
-  font-size: 22px;
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background: linear-gradient(to right, navajowhite, darkorange);
 }
 
-.data-fieldset {
+form {
+  width: 600px;
+  margin: 20px auto;
   padding: 20px;
-  border-radius: 10px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  background-color: antiquewhite;
 }
 
-.data-fieldset:first-of-type {
-  background: linear-gradient(to right, rgb(30,87,153) 0%,rgb(41,137,216) 50%,rgb(125,185,232) 100%);
+fieldset {
+  border: none;
+  margin: 20px 0;
 }
 
-.data-fieldset:nth-of-type(2) {
-  background: #d99594;
+legend {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 30px;
 }
 
-.data-fieldset:last-of-type {
-  background: #943634;
+label {
+  display: block;
+  margin-bottom: 5px;
 }
 
+input,
+input:hover,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
 
-.data-fieldset * {
-  margin: 5px;
+input:focus,
+select:focus {
+  outline: none;
+  border-color: lawngreen;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+button {
+  background-color: #800080;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.data-fieldset lable{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
 }
