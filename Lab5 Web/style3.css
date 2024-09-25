@@ -5,6 +5,18 @@
     font-style: normal;
     margin: 0;
   }
+ div{
+   width: 500px;
+   padding: 20px;
+   color: white;
+ }
+ lable{
+   display: grid;
+   justify-content: center;
+   font-size: 25px;
+   font-weight: 900;
+   margin-bottom: 10px;
+ }
  .main {
    background: linear-gradient(to right, rgb(214,249,255) 0%,rgb(158,232,250) 100%);
   padding: 50px;

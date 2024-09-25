@@ -33,14 +33,14 @@ h1{
   padding-right: 20px;
   padding-left: 50px;
 }
-.leve_two_list{
+.level_two_list{
   font-size: 18px;
   font-style: italic;
   padding-left: 5px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.leve_two_list > li {
+.level_two_list > li {
   background-color: rgb(153,180,102);
 }
 .styled_span{
@@ -53,11 +53,12 @@ h1{
   background-color: rgb(199,124,106);
   margin: 0 0 0 5px;
 }
-.leve_two_list span {
+.level_two_list span {
   background-color: rgb(218, 106, 32);
   padding: 20px;
   font-weight: 600;
 }
+
 .rule {
   background-image: url('/icons/rule.svg');
   background-position: 3px 5px;
