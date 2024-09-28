@@ -1,69 +1,99 @@
+html, body {margin:0}
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-body {
-  font-family: 'Times New Roman', Times, serif;
-  background: linear-gradient(to right, navajowhite, darkorange);
+.wrapper {
+  padding: 80px;
 }
-
 form {
-  width: 600px;
-  margin: 20px auto;
-  padding: 20px;
-  border: 1px solid #ccc;
+  margin: 0 auto;
+  width: 20%;
   border-radius: 50px;
-  background-color: antiquewhite;
 }
-
-fieldset {
-  border: none;
-  margin: 20px 0;
-}
-
 legend {
-  font-weight: bold;
-  margin-bottom: 10px;
-  font-size: 30px;
+  font-weight: 900;
+  font-size: 24px;
+  /*color: ;*/
+  margin: 0 auto;
+  text-shadow: #799967 0 1px 1px;
+}
+.main-info {
+  background-color: floralwhite;
+  border-radius: 10px;
+  border: solid 3px navajowhite;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
+  padding: 0;
+}
+.reg-box {
+  text-align: center;
+}
+.reg-checks > p > input {
+  width: 15px;
+  margin-left: 25px;
+}
+.reg-checks {
+  margin: 25px 30px;
 }
 
-label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-input,
-input:hover,
-select {
-  width: 100%;
+input {
   padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  margin-bottom: 10px;
-}
-
-input:focus,
-select:focus {
+  margin: 0;
+  width: 85%;
+  border: 1px solid black;
   outline: none;
-  border-color: lawngreen;
-  box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+  border-radius: 10px;
+  text-align: center;
+}
+textarea {
+  border: 1px solid black;
+  width: 300px;
+  height: 150px;
+  resize: none;
+  padding: 10px;
+  outline: none;
+  border-radius: 10px;
+  text-align: center;
+}
+input:focus,
+textarea:focus ,
+select:focus,
+button:focus {
+  box-shadow:  0 0 10px 5px rgba(0, 255, 0, 0.8);
 }
 
-button {
-  background-color: #800080;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 25px;
+select {
+  padding: 10px;
+  margin: 0;
+  width: 85%;
+  border: 0;
+  outline: none;
+  border-radius: 10px;
+  text-align: center;
+}
+input, select, textarea {
+  margin-top: 5px;
+}
+.form-button {
+  text-align: center;
+}
+.form-button button {
+  padding: 10px;
+  margin: 0;
+  width: 45%;
+  border-radius: 10px;
+  border: 1px solid black;
+  outline: none;
+  text-align: center;
+  background-color: aliceblue;
+}
+.form-button button:hover {
   cursor: pointer;
-  font-size: 20px;
-  font-weight: bold;
+  background-color: #A1C398;
 }
-
-.data-fieldset lable{
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 10px;
+main{
+  background: linear-gradient(to right, navajowhite,blueviolet);
+}
+.borders{
+  border: 1px solid black;
 }
