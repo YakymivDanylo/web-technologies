@@ -1,0 +1,85 @@
+html, body { margin: 0; padding: 0; height: 100%; }
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+header {
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+}
+.logo-div{
+  padding: 0;
+  display: inline-block;
+  position: relative;
+  align-items: center;
+  background-color: darkviolet;
+  border-radius: 0 0 30px 30px;
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.37) 0 1px 5px 2px;
+}
+.logo{
+  margin: 10px;
+  display: inline-block;
+  padding: 15px;
+  background-color: white;
+  border-radius: 50%;
+}
+.logo > img{
+  width: 60px;
+}
+.tasks{
+  float: right;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  list-style: none;
+}
+.tasks li{
+  float: left;
+  margin: 0 10px;
+}
+.tasks a{
+  display: block;
+  padding: 20px 30px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: blueviolet;
+  box-shadow: black 2px 2px 1px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.tasks li:last-child a{
+  border-top-right-radius: 25px;
+}
+.tasks li:first-child a{
+  border-bottom-left-radius: 25px;
+}
+.tasks a:hover{
+  background-color: aqua;
+  cursor: pointer;
+}
+div {
+  padding: 20px;
+}
+.column-box {
+  column-count: 3;
+  column-gap: 35px;
+  column-width: 150px;
+  column-rule: 5px dashed red;
+}
+.p-img{
+  width: 200px;
+  float: right;
+  margin: 20px;
+}
+
+
+
+
+
+
