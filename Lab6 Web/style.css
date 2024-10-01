@@ -184,6 +184,70 @@ div {
   border-image-slice: 20;
 }
 
+.span-task3{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  margin-bottom: 20px;
+}
+.text-in-span{
+  color:white ;
+}
+.column-box_task3{
+  margin: 50px auto;
+  max-width: 90%;
+}
+.block_13{
+  margin-bottom: 20px;
+  background: rgb(80, 11, 11);
+  color: white;
+  border-radius: 50px;
+  padding: 30px;
+  width: 100%;
+  height: 250px;
+}
+.block_14{
+  margin-bottom: 20px;
+  background: rgb(163, 79, 79);
+  color: white;
+  border-radius: 50px;
+  padding: 30px;
+  width: 100%;
+  height: 750px;
+
+}
+.block_15{
+  background-color: rgba(194, 25, 25, 0.604);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 50px;
+  width: 500px;
+  float: left;
+  margin-left: 80px;
+}
+.block_16{
+  background-color: rgba(194, 25, 25, 0.604);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 50px;
+  width: 500px;
+  float: right;
+  margin-right: 80px;
+}
+
+.inside_blocks {
+  display: flex;
+  column-count: 2;
+  margin-top: 20px;
+}
+.p-padding{
+  margin-top: 500px;
+
+}
+
+
 
 
 
