@@ -244,7 +244,11 @@ div {
 }
 .p-padding{
   margin-top: 500px;
-
+}
+.clearfix::after{
+  content:"";
+  clear: both;
+  display: table;
 }
 
 
