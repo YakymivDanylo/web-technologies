@@ -1,0 +1,140 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+header {
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+
+}
+
+.logo-div {
+  padding: 0;
+  display: inline-block;
+  position: relative;
+  align-items: center;
+  background-color: darkviolet;
+  border-radius: 0 0 30px 30px;
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.37) 0 1px 5px 2px;
+}
+
+.logo {
+  margin: 10px;
+  display: inline-block;
+  padding: 15px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.logo > img {
+  width: 60px;
+}
+
+.tasks {
+  float: right;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  list-style: none;
+}
+
+.tasks li {
+  float: left;
+  margin: 0 10px;
+}
+
+.tasks a {
+  display: block;
+  padding: 20px 30px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: blueviolet;
+  box-shadow: black 2px 2px 1px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.tasks li:last-child a {
+  border-top-right-radius: 25px;
+}
+
+.tasks li:first-child a {
+  border-bottom-left-radius: 25px;
+}
+
+.tasks a:hover {
+  background-color: aqua;
+  cursor: pointer;
+}
+
+div {
+  padding: 20px;
+}
+
+.div-wrapper {
+  margin: 20px 50px;
+  display: inline-block;
+  /*text-align: center;*/
+  position: relative;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 5px;
+  justify-content: center;
+}
+
+.div-border {
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid darkslateblue;
+  width: 250px;
+  height: 300px;
+  margin: 80px;
+}
+
+.div-border img {
+  display: block;
+  width: 100%;
+  max-width:100%;
+  height: auto;
+  margin: 5px;
+}
+
+.shadow-type-1 {
+  box-shadow: darkslateblue -5px -5px 10px 5px;
+}
+
+  .shadow-type-2 {
+    box-shadow: darkslateblue 0 0 10px 10px;
+  }
+
+  .shadow-type-3 {
+    box-shadow: darkslateblue 5px 5px 10px;
+  }
+
+  .shadow-type-4 {
+    box-shadow: darkslateblue 0 0 30px;
+  }
+
+  .shadow-type-5 {
+    box-shadow: inset 0 10px green, inset 0 -10px yellow, inset 10px 0 red, inset -10px 0 blue;
+  }
+
+  .shadow-type-6 {
+    box-shadow: green 0 15px 0 -5px, yellow 0 -15px 0 -5px;
+  }
+
