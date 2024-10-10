@@ -1,0 +1,120 @@
+html, body { margin: 0; padding: 0; height: 100%; }
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+header {
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+
+}
+.logo-div{
+  padding: 0;
+  display: inline-block;
+  position: relative;
+  align-items: center;
+  background-color: darkviolet;
+  border-radius: 0 0 30px 30px;
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.37) 0 1px 5px 2px;
+}
+.logo{
+  margin: 10px;
+  display: inline-block;
+  padding: 15px;
+  background-color: white;
+  border-radius: 50%;
+}
+.logo > img{
+  width: 60px;
+}
+.tasks{
+  float: right;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  list-style: none;
+}
+.tasks li{
+  float: left;
+  margin: 0 10px;
+}
+.tasks a{
+  display: block;
+  padding: 20px 30px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: blueviolet;
+  box-shadow: black 2px 2px 1px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.tasks li:last-child a{
+  border-top-right-radius: 25px;
+}
+.tasks li:first-child a{
+  border-bottom-left-radius: 25px;
+}
+.tasks a:hover{
+  background-color: aqua;
+  cursor: pointer;
+}
+div {
+  padding: 20px;
+}
+
+.wrapper{
+  display: flex;
+  margin: 20px auto auto;
+  text-align: center;
+  position: relative;
+  width: 50%;
+  height: 400px;
+  /*border: 1px solid black;*/
+  box-sizing: border-box;
+}
+.left-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  box-sizing: border-box;
+}
+.block {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*border: 1px solid black;*/
+  color: white;
+  box-sizing: border-box;
+}
+.block1 {
+  background-color: violet;
+}
+
+.block2 {
+  background-color: darkslateblue;
+}
+
+.right-container {
+  width: 50%;
+  background-color: mediumvioletred;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  color: white;
+  box-sizing: border-box;
+}
+
+
+
