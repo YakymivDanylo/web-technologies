@@ -103,6 +103,10 @@ input {
   height: 30px;
 }
 form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 620px;
   border: solid 20px #868686;
   background-image: url("/img/background.png");
@@ -244,18 +248,15 @@ fieldset p::after {
 legend {
   position: relative;
   text-align: center;
-  /*right: -30%;*/
   margin: 20px 0  ;
   z-index: 5;
   width: 100%;
   background-color: black;
 }
 legend:hover {
-  /*visibility: hidden;*/
   cursor: pointer;
 }
 legend:hover span:nth-child(1) {
-  /*visibility: hidden;*/
   display: none;
 }
 legend span:nth-child(2) {
@@ -263,7 +264,7 @@ legend span:nth-child(2) {
 }
 legend span:nth-child(2):first-letter {
   font-size: 50px;
-  color: pink;
+  color: purple;
 }
 legend:hover span:nth-child(2) {
   display: inline-block;
