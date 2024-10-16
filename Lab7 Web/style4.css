@@ -248,7 +248,7 @@ input:focus {
 .vertical-inner-item:hover {
   background-color: #474747;
 }
-.vertical-inner-item:nth-child(2):hover .vdouble-inner-list{
+.vertical-inner-item:nth-child(2):hover .double-inner-list{
   visibility: visible;
 }
 .vdouble-inner-list {

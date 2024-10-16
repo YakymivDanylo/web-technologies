@@ -23,62 +23,55 @@
   </div>
 </header>
 <main class="wrapper">
-  <form class="form">
-    <br /><br /><br />
+  <div class="wrapper">
+    <form action="" method="post">
+      <fieldset class="main-field" >
+        <legend><span>Заповніть форму</span>
+          <span>Ми вдячні вам</span>
+        </legend>
 
-    <fieldset tabindex="1" class="field">
-      <label for="login">Login</label><br />
-      <input type="text" id="login" class="text-input" required />
-    </fieldset>
+        <label for="login">
+          Login
+          <input id="login" type="text">
+        </label>
 
-    <fieldset tabindex="2" class="field">
-      <label for="email">Email</label>
-      <input type="email" id="email" class="text-input" required />
-    </fieldset>
 
-    <fieldset tabindex="3" class="field">
-      <label for="password">Password</label>
-      <input
-        type="password"
-        id="password"
-        class="password-input"
-        required
-      />
-    </fieldset>
+        <label for="email">
+          Email
+          <input id="email" type="text">
+        </label>
 
-    <fieldset tabindex="4" class="field">
-      <label for="r-password">Repeat password</label>
-      <input
-        type="password"
-        id="r-password"
-        class="password-input"
-        required
-      />
-    </fieldset>
+        <label for="password">
+          Password
+          <input id="password" type="text">
+        </label>
 
-    <fieldset tabindex="5" class="field">
-      <label for="first-name">First name</label><br />
-      <input type="text" id="first-name" class="text-input" required />
-    </fieldset>
+        <label for="repeat-password">
+          Repeat password
+          <input id="repeat-password" type="text">
+        </label>
 
-    <fieldset tabindex="6" class="field">
-      <label for="last-name">Last name</label><br />
-      <input type="text" id="last-name" class="text-input" required />
-    </fieldset>
+        <label for="first-name">
+          First Name
+          <input id="first-name" type="text">
+        </label>
 
-    <fieldset tabindex="7" class="about-field">
-      <label for="about">About me</label><br />
-      <textarea id="about" class="about"></textarea>
-    </fieldset>
+        <label for="last-name">
+          Last Name
+          <input id="last-name" type="text">
+        </label>
 
-    <button type="submit" class="button submit">OK</button>
-    <button type="reset" class="button reset">Reset</button>
-    <br />
-
-    <h1 class="title">Заповніть форму</h1>
-
-    <h1 class="hide-title">Ми вдячні вам</h1>
-  </form>
+        <label for="about">
+          About me
+          <textarea id="about"></textarea>
+        </label>
+      </fieldset>
+      <div class="buttons-wrapper">
+        <button class="reset-button" type="reset">Reset</button>
+        <button class="submit-button" type="submit">Ok</button>
+      </div>
+    </form>
+  </div>
 </main>
 </body>
 </html>
