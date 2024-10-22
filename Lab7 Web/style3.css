@@ -76,6 +76,19 @@ main {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   text-align: center;
 }
+.span2{
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 166px;
+}
+.span1{
+  padding-left: 200px;
+  display: block;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 387px;
+}
 
 label {
   display:block;
@@ -118,10 +131,12 @@ label:has(textarea) {
   text-align: center;
 }
 legend {
+  position: relative;
   text-align: center;
   font-size: 25px;
   color: #7d21b3;
   font-weight: 700;
+  width: 700px;
   font-style: italic;
   margin: 20px;
 }
@@ -245,18 +260,15 @@ fieldset p::after {
 legend {
   position: relative;
   text-align: center;
-  /*right: -30%;*/
   margin: 20px 0  ;
   z-index: 5;
   width: 100%;
   background-color: black;
 }
 legend:hover {
-  /*visibility: hidden;*/
   cursor: pointer;
 }
 legend:hover span:nth-child(1) {
-  /*visibility: hidden;*/
   display: none;
 }
 legend span:nth-child(2) {
